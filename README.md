@@ -1,53 +1,20 @@
-# The Equation Room — La ruta de Nébara
+# The Equation Room 5.0 — El santuario vivo
 
-Videojuego educativo de aventura arqueológica, desarrollado para practicar conceptos de Lógica y Matemática Básica (FUN-02).
+Demo experimental 3D de exploración educativa con Three.js.
 
-## Estado actual
+## Cambios respecto de 4.2
+- Avatar procedural mejorado con mochila, brújula, cuerda y detalles faciales.
+- Fauna animada estilizada (aves, mariposas), montículos y sendero ceremonial.
+- Primer acertijo con **dial físico interactivo**: girar controles en vez de escribir una respuesta.
+- Mantiene 5 monumentos, colección de hallazgos, bitácora, brújula y progreso local.
 
-**Prototipo 4.0:** experiencia de exploración en primera persona con perspectiva 3D simulada (raycasting), artefactos interactivos, acertijos algebraicos, narración, sonidos generados mediante Web Audio y protagonista ilustrado, Damián Vela.
-
-> Importante: el personaje existe como arte conceptual 2D integrado a la interfaz y la introducción. Aún **no es un modelo 3D animado controlable**; la selva exterior tampoco se ha implementado.
-
-## Jugar en local
-
-Abrir `index.html` directamente en un navegador moderno. No utiliza dependencias externas ni necesita instalar paquetes. También puedes usar un servidor estático:
-
-```bash
-python -m http.server 8000
-```
-
-Y abrir `http://localhost:8000`.
+## Iniciar
+Publica los archivos en GitHub Pages o sírvelos con un servidor HTTP local (por ejemplo `python -m http.server 8000`). Necesita WebGL y acceso a CDN para Three.js. Abre `index.html` desde el servidor.
 
 ## Controles
+WASD desplazar, Shift correr, arrastrar ratón girar cámara, E inspeccionar, rueda zoom.
 
-- WASD: caminar.
-- Flechas / arrastrar ratón: girar.
-- E: inspeccionar un artefacto cercano.
-- Botón de audio: iniciar/detener ambiente sonoro tras la interacción inicial.
-
-## Contenido educativo
-
-Cinco mecanismos con valor numérico, combinación de términos semejantes, productos notables, polinomios y simplificación racional con restricciones de dominio. Los nombres de los temas **no se anuncian al jugador** en los acertijos.
-
-## Organización
-
-- `index.html`: prototipo jugable y lógica actual.
-- `assets/`: retratos e imágenes originales del personaje creadas para el proyecto.
-- `docs/ROADMAP.md`: plan de trabajo y visión 3D.
-- `docs/QUALITY.md`: deuda técnica y pruebas.
-
-## Próximas metas
-
-1. Migrar el monolito a módulos (`src/engine`, `src/world`, `src/puzzles`, `src/audio`, `src/ui`).
-2. Diseñar malla 3D original de Damián (`.glb`) con rig, caminar, correr e interactuar.
-3. Selva explorable con vegetación, arqueología ambiental, ruinas y zonas desbloqueables.
-4. Validación matemática mediante un parser seguro, con equivalencias y restricciones de dominio.
-5. Tests automatizados, accesibilidad y guardado de progreso.
-
-## Desarrollo
-
-Para cambios relevantes: abrir un issue, crear rama `feature/...`, desarrollar, verificar y fusionar mediante pull request. Mantener `main` estable.
-
-## Licencia
-
-Licencia pendiente de definir por el propietario. No se concede licencia de reutilización externa por ahora.
+## Limitaciones y siguientes pasos
+Damián sigue siendo un modelo procedural sin esqueleto ni animaciones profesionales; el escenario no utiliza aún terreno físico irregular transitable ni colisiones completas con todas las rocas/árboles. Verificar visualmente en navegador y añadir pruebas automatizadas antes de integrar a `main`.
+## Recursos gráficos
+El retrato provisional de Damián se incluye como SVG en `assets/damian-portrait.svg`, para que el juego no dependa de una imagen ausente. Se sustituirá por el arte definitivo más adelante.
