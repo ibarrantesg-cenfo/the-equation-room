@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Retrato ilustrado de Damián Vela">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#244f38"/><stop offset="1" stop-color="#102318"/></linearGradient><linearGradient id="shirt" x2="0" y2="1"><stop stop-color="#eee0ac"/><stop offset="1" stop-color="#ae915f"/></linearGradient></defs>
+<rect width="320" height="320" rx="35" fill="url(#bg)"/><circle cx="160" cy="151" r="116" fill="#618150" opacity=".3"/>
+<path d="M23 315q4-97 91-115h94q88 18 90 115" fill="url(#shirt)" stroke="#5e4431" stroke-width="7"/>
+<path d="M115 219l44 51 45-51-24-29h-43z" fill="#bd8665"/>
+<ellipse cx="160" cy="156" rx="72" ry="82" fill="#d99a6e" stroke="#754e35" stroke-width="6"/>
+<path d="M84 151q-8-75 72-91 85 2 81 92l-22-36-29-18-73 19z" fill="#34271e"/>
+<path d="M119 155q13-9 28 0M175 155q13-9 28 0" stroke="#392c26" stroke-width="7" stroke-linecap="round" fill="none"/>
+<circle cx="135" cy="164" r="6" fill="#282720"/><circle cx="189" cy="164" r="6" fill="#282720"/>
+<path d="M144 200q18 14 37-1" fill="none" stroke="#713f35" stroke-width="6" stroke-linecap="round"/>
+<path d="M72 106Q74 44 160 37q87 8 89 69" fill="#93673d" stroke="#483522" stroke-width="8"/>
+<ellipse cx="160" cy="109" rx="133" ry="21" fill="#805732" stroke="#47301f" stroke-width="7"/>
+<path d="M100 64q60-21 123 4" stroke="#cfab73" stroke-width="8" fill="none"/>
+<path d="M106 225l-24 87M216 225l24 87" stroke="#76583d" stroke-width="11"/>
+<circle cx="239" cy="262" r="18" fill="#d6b269" stroke="#73562f" stroke-width="5"/><path d="M239 248v29m-14-15h29" stroke="#634729" stroke-width="3"/>
+</svg>
